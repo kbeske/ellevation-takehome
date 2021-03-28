@@ -1,5 +1,7 @@
 from employee import Employee
 
+# sql statements run from the command line:
+
 # CREATE TABLE IF NOT EXISTS employees (
 #     employee_id INTEGER PRIMARY KEY AUTOINCREMENT,
 #     name INTEGER NOT NULL,

@@ -17,7 +17,7 @@ class Employee:
         self.is_admin = is_admin # boolean
 
         print("Hello")
-        
+
         insert_query = f"""
         INSERT INTO
             employees (name, salary, salary_history, vacation_hours, bonus, manager_id,
@@ -38,12 +38,8 @@ class Employee:
 
     # two ways to add employees? one by doing __init__() and the other with an INSERT?
 
-    # make a new AuthenticationSystem class that takes in the person's employee id at init and then
-    #    has methods that check if they have the permissions
-
     # for all below methods:
     #    - need to add sql UPDATEs
-    #    - add some sort of authentication - should every method also take in an id?
 
     def make_admin():
         self.is_admin = True

@@ -1,6 +1,8 @@
 import sqlite3
 from sqlite3 import Error
 
+# helper functions to interact with the sqlite3 database
+
 def connect_to_database(path):
     connection = None
     try:
